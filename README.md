@@ -6,15 +6,15 @@ First of all you have to install Python to your machine. I recommand the followi
 
 Let's say that you have already downloaded the python file you want to run, first we move it to a folder that we will call it `new_work` then open it on VScode, after that you click on `Terminal` then click on `New Terminal`
 
-![new terminal](https://cdn.discordapp.com/attachments/1087001413101559829/1265983536460992543/image.png?ex=66a37e8b&is=66a22d0b&hm=99f0044546b39d756c12c6cc550e2dcfc9074c87ab01d99fe75646eade81c9ea&)
+![new terminal](https://github.com/user-attachments/assets/0bd58b6a-ba40-42ad-84c1-6c95ef596596)
 
 After starting the new terminal, you will navigate to the folder path (make sure to write the path of your own folder, for me, I have my folder in the path shown on the image `E:\new_work`)
-![navigate to the path](https://cdn.discordapp.com/attachments/1087001413101559829/1265984300277567519/image.png?ex=66a37f42&is=66a22dc2&hm=a207ae7db56981dcccb99983f7c08dea7c85a24e336fb115f81902c5a1a9d65b&)
+![navigate to the path](https://github.com/user-attachments/assets/5dbc7895-ffd8-4bb6-a586-c538870af5a3)
 
 ### Now we will install the requirements
 That is why we have to put the `requirements.txt` file in the same folder.
 we run the command: `pip install -r requirements.txt`
-![install requirements](https://cdn.discordapp.com/attachments/1087001413101559829/1265991074032386121/image.png?ex=66a38591&is=66a23411&hm=5dc5ebd08a3b21997dea958e29813bfb5f14acd51cc969133f01d322a7351d0c&)
+![install requirements](https://github.com/user-attachments/assets/fcb10c93-23c2-4d65-a041-442e6cdfb1de)
 It will take some time to install all the required libraries to assure a good execution of the code later.
 
 # If you encounter an error like:
