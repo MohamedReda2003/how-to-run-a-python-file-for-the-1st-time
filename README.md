@@ -13,8 +13,10 @@ After starting the new terminal, you will navigate to the folder path (make sure
 
 ### Now we will install the requirements
 That is why we have to put the `requirements.txt` file in the same folder.
-we run the command: `pip install -r requirements.txt`
+we run the command: `pip install -r requirements.txt`:
+
 ![install requirements](https://github.com/user-attachments/assets/fcb10c93-23c2-4d65-a041-442e6cdfb1de)
+
 It will take some time to install all the required libraries to assure a good execution of the code later.
 
 # If you encounter an error like:
