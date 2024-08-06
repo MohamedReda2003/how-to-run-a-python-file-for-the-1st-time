@@ -39,5 +39,22 @@ then go back and install the requirements
 # Finally run the script:
 run the command:
 `python extract_tabular_data_from_invoice.py`
+# To build a python executable file:
+first of all we have to start a new virtual environment: 
+```
+python -m venv table_extractor
+table_extractor/Scripts/activate
+```
+then install the dependencies :
+```
+pip install -r requirements.txt
+pip install pdfplumber
+pip install auto-py-to-exe
+```
+then run the command:
+```
+auto-py-to-exe
+```
+Then configure your app and here we go!
 
 
