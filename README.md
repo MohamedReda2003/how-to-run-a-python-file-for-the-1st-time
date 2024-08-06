@@ -48,13 +48,17 @@ table_extractor/Scripts/activate
 then install the dependencies :
 ```
 pip install -r requirements.txt
-pip install pdfplumber
+pip install pdfplumber==0.11.0
+pip install camelot-py==0.11.0
+pip install pandas==2.2.2
+pip install tabulate
+pip install flet==0.22.1
 pip install auto-py-to-exe
 ```
 then run the command:
 ```
 auto-py-to-exe
 ```
-Then configure your app and here we go!
+Then you can just configure your app and here we go!
 
 
