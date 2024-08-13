@@ -48,13 +48,11 @@ table_extractor/Scripts/activate
 then install the dependencies :
 ```
 pip install -r requirements.txt
-pip install pdfplumber==0.11.0
-pip install camelot-py==0.11.0
-pip install pandas==2.2.2
-pip install tabulate
-pip install flet==0.22.1
-pip install opencv-python
 pip install auto-py-to-exe
+```
+if you get any error when running the previous command you can run the following:
+```
+pip install pdfplumber==0.11.0 camelot-py==0.11.0  pandas==2.2.2 tabulate flet==0.22.1 opencv-python auto-py-to-exe
 ```
 then run the command:
 ```
