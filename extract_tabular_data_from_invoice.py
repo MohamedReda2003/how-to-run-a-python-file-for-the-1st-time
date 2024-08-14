@@ -56,7 +56,8 @@ def extract_tables_from_pdf(file_name: str, file_path: str, youlocation_file: ft
         'Laundry', 'Sauces, Stock & Marinades', 'Snack Foods', 'Wine',
         "Here's what was Out of Stock and not supplied",
         "Here's what was substituted and / or modified ", "Unit ",
-        "Continued from previous page", 'Cold Drinks', "Here's what was", 'Quant',"Home & Kitchenware"
+        "Continued from previous page", 'Cold Drinks', "Here's what was", 'Quant',"Home & Kitchenware",
+        "These items were supplied in full as ordered:"
     ]
 
     all_dfs = []
