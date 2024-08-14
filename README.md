@@ -38,9 +38,10 @@ then go back and install the requirements
 
 # Finally run the script:
 run the command:
-`python extract_tabular_data_from_invoice.py`
+`python extract_tabular_data_from_invoice_v.2.py`
 # To build a python executable file:
 first of all we have to start a new virtual environment: 
+If you already have this virtual environment with the same name `table_extractor`, run just the second line, else run both of them.
 ```
 python -m venv table_extractor
 table_extractor/Scripts/activate
