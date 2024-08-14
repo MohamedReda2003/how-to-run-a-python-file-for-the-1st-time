@@ -96,7 +96,7 @@ def extract_tables_from_pdf(file_name: str, file_path: str, youlocation_file: ft
         try:
             excel_path = f'{output_path}/{file_name}_extracted_tables.xlsx'
             concatenated_df.to_excel(excel_path, index=False)
-            youlocation_file.value = f"Tables are ready. Please check: {excel_path}"
+            youlocation_file.value = f"Tables are ready. Please check: \n\"{excel_path}\""
         except Exception as e:
             youlocation_file.value = f"Error saving Excel file: {str(e)}"
             print(traceback.format_exc())
